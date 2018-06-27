@@ -1,0 +1,42 @@
+<%= render 'structure' %>
+
+<div class="main">
+        
+    
+    <h1> Declarations </h1>
+    <div class="content">
+    <% @declaration_snippets.each do |snippet| %>
+        <figure> <%= snippet.name %>
+            <pre><code class = "language-<%= snippet.language %>">
+            <%= snippet.content %> 
+            </code></pre>
+        </figure>
+        <% end %>
+    </div>
+        
+        
+        
+    <h1> Conditions </h1>
+    <div class="content">
+    <% @condition_snippets.each do |snippet| %>
+        <figure> <%= snippet.name %>
+            <pre><code class = "language-<%= snippet.language %>">
+            <%= snippet.content %> 
+            </code></pre>
+        </figure>
+        <% end %>
+    </div>
+    
+        
+    <h1> Loops </h1>
+    <div class="content">
+    <% @loop_snippets.each do |snippet| %>
+        <figure> <%= snippet.name %>
+            <pre><code class = "language-<%= snippet.language %>">
+            <%= snippet.content %> 
+            </code></pre>
+        </figure>
+        <% end %>
+    </div>
+            
+</div>
