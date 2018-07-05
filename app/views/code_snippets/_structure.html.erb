@@ -7,9 +7,12 @@
 
 		<div class="menu">
 			<ul>
+				<li> <%= link_to 'C', code_display_path(:language => 'c') %> </li>
+				<li> <%= link_to 'C++', code_display_path(:language => 'cpp') %> </li>
 				<li> <%= link_to 'Java', code_display_path(:language => 'java') %> </li>
+				<li> <%= link_to 'JavaScript', code_display_path(:language => 'javascript') %> </li>
+				<li> <%= link_to 'Python', code_display_path(:language => 'python') %> </li>
 				<li> <%= link_to 'Ruby', code_display_path(:language => 'ruby') %> </li>
-				<li> <%= link_to 'C++', code_display_path(:language => 'c++') %> </li>
 			</ul>
 		</div>
 
