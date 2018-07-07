@@ -47,8 +47,11 @@ a {
 }
 
 .header {
+
 	grid-area: header;
-	overflow:hidden;
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
     background-color: cornflowerblue;
     top: 0px;
     margin:0px;
@@ -65,7 +68,7 @@ a {
 .menu {
 	grid-area: menu;
 	overflow:hidden;
-    background-color: lightgrey;
+    background-color: whitesmoke;
     border-width: 2px;
     border-right-style: solid;
     position: fixed;
