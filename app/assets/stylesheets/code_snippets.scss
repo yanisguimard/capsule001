@@ -6,4 +6,10 @@ pre {
 	border-radius:5%;
 	overflow:hidden;
     text-align: center;
+	z-index: 2;
+}
+
+#language {
+  font-size: 50px;
+  align-self: center;
 }

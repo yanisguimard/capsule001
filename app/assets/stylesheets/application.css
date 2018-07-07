@@ -47,22 +47,34 @@ a {
 }
 
 .header {
+
 	grid-area: header;
-	overflow:hidden;
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
     background-color: cornflowerblue;
     top: 0px;
     margin:0px;
     padding: 0px 2px 2px 3px;
     border-width: 2px;
     border-bottom-style: solid;
+    position: fixed;
+    bottom: 90%;
+    right: 0%;
+    left: 0%;
+    z-index: 1;
 }
 
 .menu {
 	grid-area: menu;
 	overflow:hidden;
-    background-color: lightgrey;
+    background-color: whitesmoke;
     border-width: 2px;
     border-right-style: solid;
+    position: fixed;
+    width: 10%;
+    top: 10%;
+    bottom: 0%;
 }
 
 .main {
