@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Checking the basic syntax of a language can be more time consuming than it should as very few of the resources available are succint, usually in the form of documentation or tutorials. Capsule001 is a simple website implemented with Ruby on Rails allowing developpers to jump from a programming language to another through synthetic and organized memo cards.
 
-Things you may want to cover:
+It is hosted on Heroku and is in continuous development:
 
-* Ruby version
+https://capsule001.herokuapp.com
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
